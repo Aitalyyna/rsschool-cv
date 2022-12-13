@@ -1,1 +1,1 @@
-ÿþ
+https://Aitalyyna.github.io/rsschool-cv/cv
