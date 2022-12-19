@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body 
+{
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: white;
+    margin: 50px;
+    box-shadow: 0 50px 75px rgba(0,0,0,0.1);
+    border-left: 20px solid lightpink;
+    border-right: 20px solid lightpink;
+}
+.container .top
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px;
+    padding-bottom: 0;
+}
+.container .top .imgBx
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container .top .imgBx .box
+{
+    position: relative;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+.container .top .imgBx .box img
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .top .profileText
+{
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.container .top .profileText h3
+{
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: black;
+}
+.container .contentBox
+{
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+.container .contentBox h3
+{
+    border-left: 4px solid pink;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.container .contentBox ul
+{
+    position:relative;
+    margin:  10px 0;
+}
+.container .contentBox ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 25px 0;
+    line-height: 1em;
+    cursor: pointer;
+}
+.container .contentBox ul li .icon
+{
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+}
+.container .contentBox ul.education
+{
+margin: 25px 0;
+}
+p
+{
+    font-style: 300;
+}
+.right_side
+{
+    padding-left: 40px;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year
+{
+    min-width: 150px;
+    margin-bottom: 10px;
+}
+.about .box .year h5
+{
+    font-weight: 600;
+}
+.about .box .year h5:nth-child(1)
+{
+color: black;
+}
+.about .box .text h4
+{
+    font-size: 16px;
+    margin: 0;
+}
+.about .code
+{
+    color: grey;
+    font-weight: 600;
+}
