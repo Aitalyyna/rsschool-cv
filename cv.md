@@ -29,6 +29,4 @@ Beginning skills:
 English - A2
 ## Education:
 * 2020 - St. Petersburg University of Management Technologies and Economics
-Bachelor's degree - accounting analysis and audit
-* 2015 - Financial University under the Government of the Russian Federation
-vocational education - accounting analysis and audit
+Bachelor's degree
